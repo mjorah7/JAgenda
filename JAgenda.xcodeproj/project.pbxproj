@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC14346029724B5E006E5953 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14345F29724B5E006E5953 /* AddView.swift */; };
+		FC6DBF0A297150730043A867 /* JAgendaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DBF09297150730043A867 /* JAgendaApp.swift */; };
+		FC6DBF0C297150730043A867 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DBF0B297150730043A867 /* ContentView.swift */; };
+		FC6DBF0E297150740043A867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6DBF0D297150740043A867 /* Assets.xcassets */; };
+		FC6DBF11297150740043A867 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6DBF10297150740043A867 /* Preview Assets.xcassets */; };
+		FC6DBF1B297150740043A867 /* JAgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DBF1A297150740043A867 /* JAgendaTests.swift */; };
+		FC6DBF25297150740043A867 /* JAgendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DBF24297150740043A867 /* JAgendaUITests.swift */; };
+		FC6DBF27297150740043A867 /* JAgendaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DBF26297150740043A867 /* JAgendaUITestsLaunchTests.swift */; };
+		FC6DBF34297167A00043A867 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DBF33297167A00043A867 /* Item.swift */; };
+		FC6DBF36297169030043A867 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DBF35297169030043A867 /* CardView.swift */; };
+		FC6DBF3A297178F90043A867 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DBF39297178F90043A867 /* Database.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6DBF17297150740043A867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6DBEFE297150730043A867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6DBF05297150730043A867;
+			remoteInfo = JAgenda;
+		};
+		FC6DBF21297150740043A867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6DBEFE297150730043A867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6DBF05297150730043A867;
+			remoteInfo = JAgenda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC14345F29724B5E006E5953 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		FC6DBF06297150730043A867 /* JAgenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAgenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DBF09297150730043A867 /* JAgendaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAgendaApp.swift; sourceTree = "<group>"; };
+		FC6DBF0B297150730043A867 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC6DBF0D297150740043A867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6DBF10297150740043A867 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC6DBF16297150740043A867 /* JAgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAgendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DBF1A297150740043A867 /* JAgendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAgendaTests.swift; sourceTree = "<group>"; };
+		FC6DBF20297150740043A867 /* JAgendaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAgendaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DBF24297150740043A867 /* JAgendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAgendaUITests.swift; sourceTree = "<group>"; };
+		FC6DBF26297150740043A867 /* JAgendaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAgendaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC6DBF33297167A00043A867 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FC6DBF35297169030043A867 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FC6DBF39297178F90043A867 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6DBF03297150730043A867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DBF13297150740043A867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DBF1D297150740043A867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6DBEFD297150730043A867 = {
+			isa = PBXGroup;
+			children = (
+				FC6DBF08297150730043A867 /* JAgenda */,
+				FC6DBF19297150740043A867 /* JAgendaTests */,
+				FC6DBF23297150740043A867 /* JAgendaUITests */,
+				FC6DBF07297150730043A867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6DBF07297150730043A867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DBF06297150730043A867 /* JAgenda.app */,
+				FC6DBF16297150740043A867 /* JAgendaTests.xctest */,
+				FC6DBF20297150740043A867 /* JAgendaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6DBF08297150730043A867 /* JAgenda */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DBF0B297150730043A867 /* ContentView.swift */,
+				FC6DBF33297167A00043A867 /* Item.swift */,
+				FC6DBF35297169030043A867 /* CardView.swift */,
+				FC6DBF39297178F90043A867 /* Database.swift */,
+				FC14345F29724B5E006E5953 /* AddView.swift */,
+				FC6DBF0D297150740043A867 /* Assets.xcassets */,
+				FC6DBF09297150730043A867 /* JAgendaApp.swift */,
+				FC6DBF0F297150740043A867 /* Preview Content */,
+			);
+			path = JAgenda;
+			sourceTree = "<group>";
+		};
+		FC6DBF0F297150740043A867 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DBF10297150740043A867 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC6DBF19297150740043A867 /* JAgendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DBF1A297150740043A867 /* JAgendaTests.swift */,
+			);
+			path = JAgendaTests;
+			sourceTree = "<group>";
+		};
+		FC6DBF23297150740043A867 /* JAgendaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DBF24297150740043A867 /* JAgendaUITests.swift */,
+				FC6DBF26297150740043A867 /* JAgendaUITestsLaunchTests.swift */,
+			);
+			path = JAgendaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6DBF05297150730043A867 /* JAgenda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DBF2A297150740043A867 /* Build configuration list for PBXNativeTarget "JAgenda" */;
+			buildPhases = (
+				FC6DBF02297150730043A867 /* Sources */,
+				FC6DBF03297150730043A867 /* Frameworks */,
+				FC6DBF04297150730043A867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAgenda;
+			productName = JAgenda;
+			productReference = FC6DBF06297150730043A867 /* JAgenda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6DBF15297150740043A867 /* JAgendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DBF2D297150740043A867 /* Build configuration list for PBXNativeTarget "JAgendaTests" */;
+			buildPhases = (
+				FC6DBF12297150740043A867 /* Sources */,
+				FC6DBF13297150740043A867 /* Frameworks */,
+				FC6DBF14297150740043A867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6DBF18297150740043A867 /* PBXTargetDependency */,
+			);
+			name = JAgendaTests;
+			productName = JAgendaTests;
+			productReference = FC6DBF16297150740043A867 /* JAgendaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC6DBF1F297150740043A867 /* JAgendaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DBF30297150740043A867 /* Build configuration list for PBXNativeTarget "JAgendaUITests" */;
+			buildPhases = (
+				FC6DBF1C297150740043A867 /* Sources */,
+				FC6DBF1D297150740043A867 /* Frameworks */,
+				FC6DBF1E297150740043A867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6DBF22297150740043A867 /* PBXTargetDependency */,
+			);
+			name = JAgendaUITests;
+			productName = JAgendaUITests;
+			productReference = FC6DBF20297150740043A867 /* JAgendaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6DBEFE297150730043A867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FC6DBF05297150730043A867 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FC6DBF15297150740043A867 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FC6DBF05297150730043A867;
+					};
+					FC6DBF1F297150740043A867 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FC6DBF05297150730043A867;
+					};
+				};
+			};
+			buildConfigurationList = FC6DBF01297150730043A867 /* Build configuration list for PBXProject "JAgenda" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6DBEFD297150730043A867;
+			productRefGroup = FC6DBF07297150730043A867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6DBF05297150730043A867 /* JAgenda */,
+				FC6DBF15297150740043A867 /* JAgendaTests */,
+				FC6DBF1F297150740043A867 /* JAgendaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6DBF04297150730043A867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DBF11297150740043A867 /* Preview Assets.xcassets in Resources */,
+				FC6DBF0E297150740043A867 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DBF14297150740043A867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DBF1E297150740043A867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6DBF02297150730043A867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DBF0C297150730043A867 /* ContentView.swift in Sources */,
+				FC6DBF34297167A00043A867 /* Item.swift in Sources */,
+				FC14346029724B5E006E5953 /* AddView.swift in Sources */,
+				FC6DBF36297169030043A867 /* CardView.swift in Sources */,
+				FC6DBF3A297178F90043A867 /* Database.swift in Sources */,
+				FC6DBF0A297150730043A867 /* JAgendaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DBF12297150740043A867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DBF1B297150740043A867 /* JAgendaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DBF1C297150740043A867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DBF25297150740043A867 /* JAgendaUITests.swift in Sources */,
+				FC6DBF27297150740043A867 /* JAgendaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6DBF18297150740043A867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6DBF05297150730043A867 /* JAgenda */;
+			targetProxy = FC6DBF17297150740043A867 /* PBXContainerItemProxy */;
+		};
+		FC6DBF22297150740043A867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6DBF05297150730043A867 /* JAgenda */;
+			targetProxy = FC6DBF21297150740043A867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC6DBF28297150740043A867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC6DBF29297150740043A867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6DBF2B297150740043A867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JAgenda/Preview Content\"";
+				DEVELOPMENT_TEAM = PD9Y54ASUP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jorah.JAgenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6DBF2C297150740043A867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JAgenda/Preview Content\"";
+				DEVELOPMENT_TEAM = PD9Y54ASUP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jorah.JAgenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC6DBF2E297150740043A867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD9Y54ASUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jorah.JAgendaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAgenda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JAgenda";
+			};
+			name = Debug;
+		};
+		FC6DBF2F297150740043A867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD9Y54ASUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jorah.JAgendaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAgenda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JAgenda";
+			};
+			name = Release;
+		};
+		FC6DBF31297150740043A867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD9Y54ASUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jorah.JAgendaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAgenda;
+			};
+			name = Debug;
+		};
+		FC6DBF32297150740043A867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD9Y54ASUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jorah.JAgendaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAgenda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6DBF01297150730043A867 /* Build configuration list for PBXProject "JAgenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DBF28297150740043A867 /* Debug */,
+				FC6DBF29297150740043A867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DBF2A297150740043A867 /* Build configuration list for PBXNativeTarget "JAgenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DBF2B297150740043A867 /* Debug */,
+				FC6DBF2C297150740043A867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DBF2D297150740043A867 /* Build configuration list for PBXNativeTarget "JAgendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DBF2E297150740043A867 /* Debug */,
+				FC6DBF2F297150740043A867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DBF30297150740043A867 /* Build configuration list for PBXNativeTarget "JAgendaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DBF31297150740043A867 /* Debug */,
+				FC6DBF32297150740043A867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6DBEFE297150730043A867 /* Project object */;
+}
